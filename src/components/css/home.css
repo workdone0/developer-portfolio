@@ -1,0 +1,22 @@
+.btn {
+  height: 50px;
+  width: 100px;
+  background-color: #000000;
+  color: #ffffff;
+  margin: 0 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .hi-section {
+    text-align: center;
+  }
+}
